@@ -1,0 +1,29 @@
+{
+  "name": "bcaa_website",
+  "version": "1.0.0",
+  "private":"true",
+  "description": "A face-lift for BCAA (Brahmin Cultural Association of Australia - ww.ausbrahmin.com) with node.js and bootstrap",
+  "main": "index.html",
+  "dependencies": {
+    "express": "latest",
+      "body-parser": "*",
+      "cookie-parser": "*",
+      "express-session": "*",
+      "bcrypt-nodejs": "*",
+      "ejs": "*",
+      "passport": "*",
+      "passport-local": "*",
+      "mysql": "*",
+      "bookshelf": "0.5"
+  },
+  "scripts": {
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Karthik",
+    "Srinivasan"
+  ],
+  "author": "Karthik Srinivasan",
+  "license": "ISC"
+}
